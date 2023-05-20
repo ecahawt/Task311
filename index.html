@@ -1,0 +1,130 @@
+<html>
+<head>
+<title> All Time Favourite </title>
+</head>
+<body>
+</body>
+
+<hr>
+<center> <b> Favourite Songs </b></center>
+<hr>
+<br>
+ Sleeping Child by Michael Learns To Rock
+<br><audio controls>
+<source src="C:\Users\user\OneDrive\Desktop\folder\file\music\music1.mp3"type="audio/mp3"></audio> 
+<br>
+<br>
+Sembunyi by Misha Omar
+<br>
+<audio controls>
+<source src="C:\Users\user\OneDrive\Desktop\folder\file\music\music2.mp3"type="audio/mp3">
+</audio>
+<br>
+<br>
+Nobody Gets Me by SZA
+<br>
+<audio controls>
+<source src="C:\Users\user\OneDrive\Desktop\folder\file\music\music3.mp3"type="audio/mp3">
+</audio>
+<br>
+<br>
+Thats Why You Go by Michael Learns to Rock
+<br><audio controls>
+<source src="C:\Users\user\OneDrive\Desktop\folder\file\music\music4.mp3"type="audio/mp3">
+</audio>
+<br>
+<br>
+You Took My Heart Away by Michael Learns To Rock 
+<br><audio controls>
+<source src="C:\Users\user\OneDrive\Desktop\folder\file\music\music5.mp3"type="audio/mp3">
+</audio>
+
+<hr>
+<center> <b> Current Play on Youtube </b></center>
+<hr>
+<br>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G4XJQgRi2oE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+<br><br>
+<hr>
+<hr>
+<br>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a6SD1OMPU2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
+<hr>
+<marquee direction="down" scrollamount="1"> 
+<center> <h1> Perfomance | ecahawt | I've currently  been practicing on my perfomance for dinner night</h1></center>
+
+</marquee>
+<hr>
+<br>
+
+
+<script>
+setInterval(showTime, 1000);
+function showTime() {
+    let time = new Date();
+    let hour = time.getHours();
+    let min = time.getMinutes();
+    let sec = time.getSeconds();
+    am_pm = "AM";
+  
+    if (hour > 12) {
+        hour -= 12;
+        am_pm = "PM";
+    }
+    if (hour == 0) {
+        hr = 12;
+        am_pm = "AM";
+    }
+  
+    hour = hour < 10 ? "0" + hour : hour;
+    min = min < 10 ? "0" + min : min;
+    sec = sec < 10 ? "0" + sec : sec;
+  
+    let currentTime = hour + ":" 
+            + min + ":" + sec + am_pm;
+  
+    document.getElementById("clock")
+            .innerHTML = currentTime;
+}
+showTime();
+</script>
+</body>
+
+<hr>
+<center> <b> Favourite Video </b></center>
+<hr>
+<br><video width="100%" autoplay muted>
+<source src="C:\Users\user\OneDrive\Desktop\folder\file\mv\IVE 아이브 'I AM' MV.mp4"type="video/mp4">
+</video>
+
+<br><br>
+<br><video width="100%">
+<source src="C:\Users\user\OneDrive\Desktop\folder\file\mv\videoplayback (1).mp4"video/mp4">
+</video>
+<br><br>
+
+<hr>
+<center> <b> PDF </b></center>
+<hr>
+<br>
+<center>
+<iframe src="C:\Users\user\OneDrive\Desktop\folder\file\pdf\Surat Panggilan Temu Duga.pdf" width="80%" height="1200px">
+</iframe>
+</center>
+<br><br>
+
+
+
+
+
+
+
+
+
+
+</html>
